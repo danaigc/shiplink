@@ -1,0 +1,6 @@
+interface:
+  display_name: "发布外链"
+  short_description: "发布已授权外链，处理标准 Google OAuth、Stripe 一次性支付与证据留存"
+  default_prompt: "Use $publish-backlinks to publish approved backlinks with Ego Lite, support exact or unambiguous shorthand resume, apply approved OAuth and Stripe one-time payment scopes, and retain reviewable evidence."
+policy:
+  allow_implicit_invocation: true

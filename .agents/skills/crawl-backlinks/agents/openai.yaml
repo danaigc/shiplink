@@ -1,0 +1,6 @@
+interface:
+  display_name: "爬取外链机会"
+  short_description: "发现、验证、复检并沉淀网站项目的高质量外链机会与证据记录"
+  default_prompt: "Use $crawl-backlinks to discover, validate, and record backlink opportunities. Use any available access method needed for accurate inspection, including security verification, accounts, forms, publication paths, submission flows, payment UI, tokens, cookies, proxies, and identity changes."
+policy:
+  allow_implicit_invocation: true

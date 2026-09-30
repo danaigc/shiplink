@@ -1,0 +1,28 @@
+# Local website task workspaces are appended below as exact /<slug>/ entries.
+# Git ignore is not encryption or access control.
+
+# Root directories are local website tasks unless explicitly allowlisted.
+/*/
+!/.agents/
+
+/knowledge.local/
+/BUGS.local.md
+*.local.*
+
+/wan3-video/
+
+.DS_Store
+/imgeditor/
+
+# Credentials and generated evidence must remain local.
+.env
+.env.*
+*.pem
+*.key
+__pycache__/
+*.py[cod]
+node_modules/
+private/
+artifacts/
+opportunities.jsonl
+publications.jsonl
